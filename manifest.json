@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "TAC-TwitchAdCrusher",
+    "version": "1.0",
+    "description": "Say Goodbye to Twitch ads!",
+    "permissions": ["activeTab", "scripting"],
+    "content_scripts": [
+      {
+        "matches": ["*://*.twitch.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
