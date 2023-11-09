@@ -1,6 +1,6 @@
 ## Video tutorial
 
-Yes dumbs, got you covered- https://youtu.be/i3T6BS1heYc
+Yes dumbs, got you covered- https://youtu.be/YODtCJd2LA8
 
 ## Installation
 
