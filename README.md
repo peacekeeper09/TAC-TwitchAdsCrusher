@@ -21,3 +21,6 @@ function `handleTwitchAds()` { ... }: This function serves as a coordinator for 
 ## `setInterval(handleTwitchAds, checkInterval);`
 
 `setInterval(handleTwitchAds, checkInterval);`: This line sets up an interval that repeatedly calls the handleTwitchAds function every 100 milliseconds (as defined by checkInterval). This ensures that the code continuously checks for and attempts to handle and skip Twitch ads while the page is open.
+
+# Summary
+In summary, this code automates the process of closing overlay ads and handling video player ads on Twitch by finding and clicking on the appropriate buttons. It does so at regular intervals to improve the viewer's experience by minimizing or skipping ads. 
