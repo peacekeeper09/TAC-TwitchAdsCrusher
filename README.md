@@ -14,5 +14,10 @@ function `closeOverlayAds()`{ ... }: This function is defined to close overlay a
 function `handlePlayerAds()`{ ... }: This function is responsible for handling ads within the Twitch video player. It first selects the video player element with the class name "video-player" and checks for the presence of an "ad-indicator" within the player. If there's an ad being indicated, it performs the following actions:
 It looks for a "mute-button" within the player and clicks it to mute the ad.
 After a delay of 1000 milliseconds (1 second), it looks for a "skip-button" within the player and clicks it to skip the ad.
-function handleTwitchAds() { ... }: This function serves as a coordinator for handling Twitch ads. It calls the closeOverlayAds function to close overlay ads and then calls the handlePlayerAds function to handle ads within the video player.
-setInterval(handleTwitchAds, checkInterval);: This line sets up an interval that repeatedly calls the handleTwitchAds function every 100 milliseconds (as defined by checkInterval). This ensures that the code continuously checks for and attempts to handle and skip Twitch ads while the page is open.
+
+## function `handleTwitchAds()`
+function `handleTwitchAds()` { ... }: This function serves as a coordinator for handling Twitch ads. It calls the closeOverlayAds function to close overlay ads and then calls the handlePlayerAds function to handle ads within the video player.
+
+## `setInterval(handleTwitchAds, checkInterval);`
+
+`setInterval(handleTwitchAds, checkInterval);`: This line sets up an interval that repeatedly calls the handleTwitchAds function every 100 milliseconds (as defined by checkInterval). This ensures that the code continuously checks for and attempts to handle and skip Twitch ads while the page is open.
